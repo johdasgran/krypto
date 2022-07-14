@@ -1,14 +1,18 @@
-$font: 'Outfit', sans-serif;
+$font: "Outfit", sans-serif;
+$bg-color: #000235;
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  html {
-    font-size: 62.5%;
-    font-family: var($font);
-    min-width: 320px;
-  }
-  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: var($font);
+  min-width: 320px;
+}
+
+body {
+  background-color: $bg-color;
+}
