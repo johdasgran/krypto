@@ -1,3 +1,26 @@
 .header {
     color: $color-text;
+    font-weight: 700;
+    height: 100px;
+
+    &__container {
+        display: flex;
+        place-items: center;
+        justify-content: space-around;
+        height: inherit;
+    }
+
+    &__logo {
+        font-size: 2rem;
+    }
+
+    &__navbar ul {
+        font-size: 1.6rem;
+        list-style: none;
+        display: flex;
+        place-items: center;
+        gap: 20px;
+    }
+
+
 }
