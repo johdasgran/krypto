@@ -1,5 +1,6 @@
 $font: "Outfit", sans-serif;
 $bg-color: #000235;
+$color-text: #fff;
 
 * {
   box-sizing: border-box;
@@ -9,7 +10,7 @@ $bg-color: #000235;
 
 html {
   font-size: 62.5%;
-  font-family: var($font);
+  font-family: $font;
   min-width: 320px;
 }
 
