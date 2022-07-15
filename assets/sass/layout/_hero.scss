@@ -5,6 +5,7 @@
   max-width: 1200px;
   color: $color-text;
   margin: 0 auto;
+  margin-top: 52px;
 
   &__information {
     max-width: 480px;
@@ -15,15 +16,21 @@
     font-weight: 700;
     text-transform: capitalize;
     line-height: 100%;
+    margin-bottom: 18px;
   }
 
   &__information p {
     font-size: 1.8rem;
+    line-height: 2.8rem;
     font-weight: 400;
     font-family: $font-secondary;
+    max-width: 380px;
   }
 
-
+  &__information &__buttons {
+    display: flex;
+    gap: 16px;
+  }
 
 
 

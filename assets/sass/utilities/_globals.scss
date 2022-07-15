@@ -4,6 +4,8 @@ $font-secondary: 'Roboto', sans-serif;
 
 $bg-color: #000235;
 $color-text: #fff;
+$bg-button-primary: #8D8DDA;
+$bg-button-secondary: transparent;
 
 * {
   box-sizing: border-box;
@@ -19,4 +21,29 @@ html {
 
 body {
   background-color: $bg-color;
+}
+
+.button {
+  display: inline-block;
+  color: $color-text;
+  font-family: $font-primary;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2rem;
+  line-height: 2.75rem;
+  padding: 16px 48px;
+  cursor: pointer;
+  border-radius: 80px;
+  margin: 36px 0;
+
+  &__primary {
+    background-color: $bg-button-primary;
+  }
+
+  &__secondary {
+    background-color: $bg-button-secondary;
+    border: 1px solid #ABD9D9;
+  }
+
+
 }
