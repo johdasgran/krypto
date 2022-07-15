@@ -1,0 +1,42 @@
+.hero {
+  display: flex;
+  place-content: center;
+  place-items: center;
+  max-width: 1200px;
+  color: $color-text;
+  margin: 0 auto;
+
+  &__information {
+    max-width: 480px;
+  }
+
+  &__information h1 {
+    font-size: 8rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 100%;
+  }
+
+  &__information p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-family: $font-secondary;
+  }
+
+
+
+
+
+  &__image {
+    width: 500px;
+  }
+
+  &__image img {
+    width: inherit;
+    object-fit: contain;
+  }
+
+
+
+
+}

@@ -1,4 +1,7 @@
-$font: "Outfit", sans-serif;
+$font-primary: "Outfit", sans-serif;
+$font-secondary: 'Roboto', sans-serif;
+
+
 $bg-color: #000235;
 $color-text: #fff;
 
@@ -10,7 +13,7 @@ $color-text: #fff;
 
 html {
   font-size: 62.5%;
-  font-family: $font;
+  font-family: $font-primary;
   min-width: 320px;
 }
 
