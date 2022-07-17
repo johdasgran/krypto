@@ -2,6 +2,7 @@
 $sm: 320px;
 $md: 768px;
 $lg: 1024px;
+$x-lg: 1500px;
 
 @function getColumns($columns){
     @return repeat($columns,1fr);
