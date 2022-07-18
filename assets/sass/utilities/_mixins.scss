@@ -48,3 +48,9 @@ $x-lg: 1500px;
         grid-template-columns: getColumns(3);
     }
 }
+
+.display {
+    display: flex;
+    place-content: center;
+    place-items: center;
+}
