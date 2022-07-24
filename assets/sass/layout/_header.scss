@@ -46,7 +46,7 @@
   &__navbar ul li:last-child {
     background-color: #2d2879;
     // padding: 10px 24px 10px 52px;
-    padding: 1vw 2vw 1vw 4vw;
+    padding: 1vw 2vw 1vw 3.6vw;
     border-radius: 6vw;
     position: relative;
   }
@@ -54,11 +54,11 @@
   &__navbar ul li:last-child::before {
     content: "";
     position: absolute;
-    left: 20px;
+    left: 1.4vw;
     top: 50%;
     transform: translateY(-50%);
-    height: 18px;
-    width: 18px;
+    height: 1.2vw;
+    width: 1.2vw;
     border-radius: 50%;
     background-color: #9091DC;
   }
