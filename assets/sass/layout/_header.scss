@@ -25,7 +25,12 @@
   }
 
   &__logo {
-    font-size: 2rem;
+    // font-size: 2rem;
+    font-size: 4.2vw;
+  }
+
+  &__navbar {
+    display: none;
   }
 
   &__navbar ul {
@@ -54,6 +59,47 @@
     border-radius: 50%;
     background-color: #9091DC;
   }
+
+
+  @include setQuery(Mobile-M) {
+
+  }
+
+  @include setQuery(Mobile-L) {
+
+  }
+
+  @include setQuery(Tablet) {
+
+  }
+
+  @include setQuery(Laptop) {
+    &__logo {
+      font-size: 1.4vw;
+    }
+
+    &__navbar {
+      display: flex;
+    }
+  }
+
+  @include setQuery(Laptop-L) {
+
+  }
+
+  @include setQuery(Laptop-4K) {
+
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 
