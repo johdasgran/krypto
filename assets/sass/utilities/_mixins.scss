@@ -1,24 +1,43 @@
 // Breakpoints
-$sm: 320px;
-$md: 768px;
-$lg: 1024px;
-$x-lg: 1500px;
+$Mobile-S: 320px;
+$Mobile-M: 375px;
+$Mobile-L: 425px;
+$Tablet: 768px;
+$Laptop: 1024px;
+$Laptop-L: 1440px;
+$Laptop-4K: 2560px;
 
 @function getColumns($columns) {
   @return repeat($columns, 1fr);
 }
 
 @mixin setQuery($type) {
-  @if $type == sm {
-    @media (min-width: $sm) {
+  @if $type == Mobile-S {
+    @media (min-width: $Mobile-S) {
       @content;
     }
-  } @else if $type == md {
-    @media (min-width: $md) {
+  } @else if $type == Mobile-M {
+    @media (min-width: $Mobile-M) {
       @content;
     }
-  } @else if $type == lg {
-    @media (min-width: $lg) {
+  } @else if $type == Mobile-L {
+    @media (min-width: $Mobile-L) {
+      @content;
+    }
+  } @else if $type == Tablet {
+    @media (min-width: $Tablet) {
+      @content;
+    }
+  } @else if $type == Laptop {
+    @media (min-width: $Laptop) {
+      @content;
+    }
+  } @else if $type == Laptop-L {
+    @media (min-width: $Laptop-L) {
+      @content;
+    }
+  } @else if $type == Laptop-4K {
+    @media (min-width: $Laptop-4K) {
       @content;
     }
   }
