@@ -42,26 +42,24 @@
     object-fit: contain;
   }
 
+  @include setQuery(Mobile-M) {
+  }
+
+  @include setQuery(Mobile-L) {
+  }
+
+  @include setQuery(Tablet) {
+  }
+
   @include setQuery(Laptop) {
     & {
       flex-direction: row;
     }
-
-
-
-
-
-
-
-
-
-    
   }
 
+  @include setQuery(Laptop-L) {
+  }
 
-
-
-
-
-
+  @include setQuery(Laptop-4K) {
+  }
 }
