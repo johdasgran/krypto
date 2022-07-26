@@ -3,17 +3,19 @@
   flex-direction: column;
   place-content: center;
   place-items: center;
-  max-width: 1200px;
+  // max-width: 1200px;
   color: $color-text;
   margin: 0 auto;
-  margin-top: 52px;
+  margin-top: 2vh;
+  padding: 0 6vw;
 
   &__information {
     max-width: 480px;
   }
 
   &__information h1 {
-    font-size: 8rem;
+    // font-size: 8rem;
+    font-size: 11.875vw;
     font-weight: 700;
     text-transform: capitalize;
     line-height: 100%;
@@ -21,11 +23,12 @@
   }
 
   &__information p {
-    font-size: 1.8rem;
-    line-height: 2.8rem;
+    // font-size: 1.8rem;
+    font-size: 5.625vw;
+    line-height: 8.75vw;
     font-weight: 400;
     font-family: $font-secondary;
-    max-width: 380px;
+    // max-width: 380px;
   }
 
   &__information &__buttons {
@@ -46,6 +49,18 @@
   }
 
   @include setQuery(Mobile-L) {
+
+  &__information h1 {
+    // font-size: 8rem;
+    font-size: 8.941176470588236vw;
+    margin-bottom: 18px;
+  }
+
+  &__information p {
+    // font-size: 1.8rem;
+    font-size: 4.235294117647059vw;
+    line-height: 6.588235294117648vw;
+  }
   }
 
   @include setQuery(Tablet) {
