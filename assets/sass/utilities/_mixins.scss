@@ -43,31 +43,31 @@ $Laptop-4K: 2560px;
   }
 }
 
-.container {
-  width: 95%;
-  margin: 0 auto;
-  @include setQuery(md) {
-    width: 90%;
-  }
-  @include setQuery(lg) {
-    width: 80%;
-  }
-}
+// .container {
+//   width: 95%;
+//   margin: 0 auto;
+//   @include setQuery(md) {
+//     width: 90%;
+//   }
+//   @include setQuery(lg) {
+//     width: 80%;
+//   }
+// }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 40px;
-  @include setQuery(md) {
-    grid-template-columns: getColumns(2);
-  }
-  @include setQuery(lg) {
-    grid-template-columns: getColumns(3);
-  }
-}
+// .grid {
+//   display: grid;
+//   grid-template-columns: 1fr;
+//   gap: 40px;
+//   @include setQuery(md) {
+//     grid-template-columns: getColumns(2);
+//   }
+//   @include setQuery(lg) {
+//     grid-template-columns: getColumns(3);
+//   }
+// }
 
-.display {
-  display: flex;
-  place-content: center;
-  place-items: center;
-}
+// .display {
+//   display: flex;
+//   place-content: center;
+//   place-items: center;
+// }

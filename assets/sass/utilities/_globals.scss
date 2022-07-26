@@ -45,4 +45,38 @@ body {
   }
 
 
+
+
+  @include setQuery(Mobile-M) {
+  }
+
+  @include setQuery(Mobile-L) {
+
+  }
+
+  @include setQuery(Tablet) {
+
+  }
+
+  @include setQuery(Laptop) {
+
+  }
+
+  @include setQuery(Laptop-L) {
+  }
+
+  @include setQuery(Laptop-4K) {
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 }
