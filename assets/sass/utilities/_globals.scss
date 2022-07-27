@@ -1,10 +1,9 @@
 $font-primary: "Outfit", sans-serif;
-$font-secondary: 'Roboto', sans-serif;
-
+$font-secondary: "Roboto", sans-serif;
 
 $bg-color: #000235;
 $color-text: #fff;
-$bg-button-primary: #8D8DDA;
+$bg-button-primary: #8d8dda;
 $bg-button-secondary: transparent;
 
 * {
@@ -41,25 +40,19 @@ body {
 
   &__secondary {
     background-color: $bg-button-secondary;
-    border: 1px solid #ABD9D9;
+    border: 1px solid #abd9d9;
   }
-
-
-
 
   @include setQuery(Mobile-M) {
   }
 
   @include setQuery(Mobile-L) {
-
   }
 
   @include setQuery(Tablet) {
-
   }
 
   @include setQuery(Laptop) {
-
   }
 
   @include setQuery(Laptop-L) {
@@ -67,16 +60,4 @@ body {
 
   @include setQuery(Laptop-4K) {
   }
-
-
-
-
-
-
-
-
-
-
-
-
 }
