@@ -49,27 +49,6 @@
   }
 
   @include setQuery(Mobile-L) {
-
-    & {
-      margin-top: 4vh;
-      padding: 0 10vw;
-    }
-
-  &__information h1 {
-    font-size: 10.352941176470589vw;
-    margin-bottom: 18px;
-  }
-
-  &__information p {
-    font-size: 4.235294117647059vw;
-    line-height: 6.588235294117648vw;
-  }
-
-
-  }
-
-  @include setQuery(Tablet) {
-
     & {
       margin-top: 4vh;
       padding: 0 10vw;
@@ -84,7 +63,23 @@
       font-size: 4.235294117647059vw;
       line-height: 6.588235294117648vw;
     }
+  }
 
+  @include setQuery(Tablet) {
+    & {
+      margin-top: 4vh;
+      padding: 0 10vw;
+    }
+
+    &__information h1 {
+      font-size: 10.352941176470589vw;
+      margin-bottom: 18px;
+    }
+
+    &__information p {
+      font-size: 4.235294117647059vw;
+      line-height: 6.588235294117648vw;
+    }
   }
 
   @include setQuery(Laptop) {
