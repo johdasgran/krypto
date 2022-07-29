@@ -27,12 +27,13 @@ body {
   font-family: $font-primary;
   font-weight: 600;
   text-transform: uppercase;
-  font-size: 2rem;
-  line-height: 2.75rem;
-  padding: 16px 48px;
   cursor: pointer;
-  border-radius: 80px;
-  margin: 36px 0;
+  font-size: 4.70vw;
+  line-height: 6.47vw;
+  padding: 2.82vw 5.70vw;
+  border-radius: 18.82vw;
+  margin: 4.70vw 0;
+  outline: none;
 
   &__primary {
     background-color: $bg-button-primary;
@@ -40,8 +41,9 @@ body {
 
   &__secondary {
     background-color: $bg-button-secondary;
-    border: 1px solid #abd9d9;
+    border: 0.23vw solid #abd9d9;
   }
+
 
   @include setQuery(Mobile-M) {
   }
