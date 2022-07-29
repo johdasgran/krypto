@@ -3,7 +3,6 @@
   flex-direction: column;
   place-content: center;
   place-items: center;
-  // max-width: 1200px;
   color: $color-text;
   margin: 0 auto;
   margin-top: 2vh;
@@ -14,7 +13,6 @@
   }
 
   &__information h1 {
-    // font-size: 8rem;
     font-size: 11.875vw;
     font-weight: 700;
     text-transform: capitalize;
@@ -23,12 +21,10 @@
   }
 
   &__information p {
-    // font-size: 1.8rem;
     font-size: 5.625vw;
     line-height: 8.75vw;
     font-weight: 400;
     font-family: $font-secondary;
-    // max-width: 380px;
   }
 
   &__information &__buttons {
@@ -36,13 +32,7 @@
     gap: 2.82vw;
   }
 
-  // &__image {
-  //   min-width: 280px;
-  //   max-width: 480px;
-  // }
-
   &__image img {
-    // width: 87.5vw;
     width: 87.5vw;
     object-fit: contain;
   }
