@@ -10,6 +10,10 @@ $bg-button-secondary: transparent;
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
+  /* Works on Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: $bg-button-primary $bg-color;
 }
 
 html {
@@ -19,6 +23,21 @@ html {
 
 body {
   background-color: $bg-color;
+}
+
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+  width: 0.82vw; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: $bg-color; /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: $bg-button-primary; /* color of the scroll thumb */
+  border-radius: 1.95vw; /* roundness of the scroll thumb */
+  border: 0.29vw solid $bg-color /* creates padding around scroll thumb */
 }
 
 .button {
