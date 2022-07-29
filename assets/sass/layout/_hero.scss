@@ -10,7 +10,7 @@
   padding: 0 6vw;
 
   &__information {
-    max-width: 480px;
+    max-width: 112.94vw;
   }
 
   &__information h1 {
@@ -51,7 +51,7 @@
 
   @include setQuery(Mobile-L) {
     & {
-      margin-top: 4vh;
+      margin-top: 4.8vh;
       padding: 0 10vw;
     }
 
@@ -68,7 +68,7 @@
 
   @include setQuery(Tablet) {
     & {
-      margin-top: 4vh;
+      margin-top: 6vh;
       padding: 0 10vw;
     }
 
@@ -87,9 +87,40 @@
     & {
       flex-direction: row;
     }
+
+    &__information {
+      max-width: 46.875vw;
+    }
+
+    &__information h1 {
+      font-size: 7.8125vw;
+      margin-bottom: 1.757vw;
+    }
+  
+    &__information p {
+      font-size: 1.95vw;
+      line-height: 2.93vw;
+    }
+
+    &__information &__buttons {
+      gap: 1.40vw;
+    }
+
+
   }
 
   @include setQuery(Laptop-L) {
+
+    &__information h1 {
+      font-size: 5.555vw;
+      margin-bottom: 1.757vw;
+    }
+  
+    &__information p {
+      font-size: 1.95vw;
+      line-height: 2.93vw;
+    }
+    
   }
 
   @include setQuery(Laptop-4K) {
