@@ -37,11 +37,12 @@
   }
 
   &__image {
-    width: 500px;
+    min-width: 280px;
+    max-width: 480px;
   }
 
   &__image img {
-    width: inherit;
+    width: 87.5vw;
     object-fit: contain;
   }
 
