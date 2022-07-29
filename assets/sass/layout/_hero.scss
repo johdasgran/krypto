@@ -36,12 +36,13 @@
     gap: 2.82vw;
   }
 
-  &__image {
-    min-width: 280px;
-    max-width: 480px;
-  }
+  // &__image {
+  //   min-width: 280px;
+  //   max-width: 480px;
+  // }
 
   &__image img {
+    // width: 87.5vw;
     width: 87.5vw;
     object-fit: contain;
   }
@@ -89,11 +90,15 @@
     }
 
     &__information {
+      max-width: 29.166vw;
+    }
+
+    &__information {
       max-width: 46.875vw;
     }
 
     &__information h1 {
-      font-size: 7.8125vw;
+      font-size: 5.65vw;
       margin-bottom: 1.757vw;
     }
   
@@ -107,12 +112,18 @@
     }
 
 
+  &__image img {
+    width: 46.875vw;
+  }
+
+
+
   }
 
   @include setQuery(Laptop-L) {
 
     &__information h1 {
-      font-size: 5.555vw;
+      font-size: 5.65vw;
       margin-bottom: 1.757vw;
     }
   
