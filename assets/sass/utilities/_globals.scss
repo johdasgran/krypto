@@ -65,6 +65,13 @@ body {
     padding: 1.388vw 4.16vw;
     border-radius: 18.82vw;
     margin: 2.777vw 0;
+
+    &__secondary {
+      background-color: $bg-button-secondary;
+      border: 0.195vw solid #abd9d9;
+    }
+
+
   }
 
   @include setQuery(Laptop-L) {
