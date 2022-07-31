@@ -91,37 +91,31 @@
       font-size: 5.65vw;
       margin-bottom: 1.757vw;
     }
-  
+
     &__information p {
       font-size: 1.95vw;
       line-height: 2.93vw;
     }
 
     &__information &__buttons {
-      gap: 1.40vw;
+      gap: 1.4vw;
     }
 
-
-  &__image img {
-    width: 46.875vw;
-  }
-
-
-
+    &__image img {
+      width: 46.875vw;
+    }
   }
 
   @include setQuery(Laptop-L) {
-
     &__information h1 {
       font-size: 5.65vw;
       margin-bottom: 1.757vw;
     }
-  
+
     &__information p {
       font-size: 1.95vw;
       line-height: 2.93vw;
     }
-    
   }
 
   @include setQuery(Laptop-4K) {

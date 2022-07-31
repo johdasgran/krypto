@@ -10,7 +10,7 @@
     z-index: -1;
     width: 60vw;
     height: 60vw;
-    left: calc(50% - 60vw/2 - 28vw);
+    left: calc(50% - 60vw / 2 - 28vw);
     top: -28vh;
     background: rgba(141, 141, 218, 0.6);
     filter: blur(30vw);
@@ -54,20 +54,16 @@
     height: 1.2vw;
     width: 1.2vw;
     border-radius: 50%;
-    background-color: #9091DC;
+    background-color: #9091dc;
   }
 
-
   @include setQuery(Mobile-M) {
-
   }
 
   @include setQuery(Mobile-L) {
-
   }
 
   @include setQuery(Tablet) {
-
   }
 
   @include setQuery(Laptop) {
@@ -86,24 +82,8 @@
   }
 
   @include setQuery(Laptop-L) {
-
   }
 
   @include setQuery(Laptop-4K) {
-
   }
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
 }
