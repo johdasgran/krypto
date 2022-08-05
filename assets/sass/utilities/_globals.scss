@@ -37,7 +37,7 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: $bg-button-primary; /* color of the scroll thumb */
   border-radius: 1.95vw; /* roundness of the scroll thumb */
-  border: 0.29vw solid $bg-color /* creates padding around scroll thumb */
+  border: 0.29vw solid $bg-color; /* creates padding around scroll thumb */
 }
 
 .button {
@@ -47,11 +47,11 @@ body::-webkit-scrollbar-thumb {
   font-weight: 600;
   text-transform: uppercase;
   cursor: pointer;
-  font-size: 4.70vw;
+  font-size: 4.7vw;
   line-height: 6.47vw;
-  padding: 2.82vw 5.70vw;
+  padding: 2.82vw 5.7vw;
   border-radius: 18.82vw;
-  margin: 4.70vw 0;
+  margin: 4.7vw 0;
   outline: none;
 
   &__primary {
@@ -63,7 +63,6 @@ body::-webkit-scrollbar-thumb {
     border: 0.23vw solid #abd9d9;
   }
 
-
   @include setQuery(Mobile-M) {
   }
 
@@ -72,7 +71,7 @@ body::-webkit-scrollbar-thumb {
     line-height: 5.47vw;
     padding: 2.32vw 5.12vw;
     border-radius: 18.82vw;
-    margin: 4.70vw 0;
+    margin: 4.7vw 0;
   }
 
   @include setQuery(Tablet) {
@@ -89,8 +88,6 @@ body::-webkit-scrollbar-thumb {
       background-color: $bg-button-secondary;
       border: 0.195vw solid #abd9d9;
     }
-
-
   }
 
   @include setQuery(Laptop-L) {
